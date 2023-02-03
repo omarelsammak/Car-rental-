@@ -1,0 +1,105 @@
+ *{
+margin: 0;
+padding: 0;
+
+scroll-padding-top: 2rem;
+scroll-behavior: smooth;
+list-style: none;
+text-decoration: none;
+
+}
+:root{
+--main-color : #fbbc00;
+--second-color:#d08112;
+--text-color:#444;
+--gradient:linear-gradient(#fe5b3d,-#ffac38)
+
+}
+html::-webkit-scrollbar{
+width: 0.5rem;
+
+}
+html::-webkit-scrollbar-track{
+background: transparent;
+
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius: 6rem;
+    }
+    body{
+        background-repeat: no-repeat;
+        width: 100%;
+        min-width: 100vh;
+        padding-top: 400px;
+        height: 100%;
+        background-repeat: no-repeat;
+      background-size: cover;
+        background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8&w=1000&q=80");
+    }
+  
+  
+    header{
+position: fixed;
+width: 100%;
+top: 0;
+right: 0;
+z-index: 1000;
+justify-content:  space-between;
+align-items: center;
+
+display: flex;
+
+
+    }
+    .logo img{
+    width: 120px;
+
+    }
+    .menu{
+
+        display: flex;
+    }
+    .menu li {
+    position: relative;
+
+    }
+    .menu a{
+        font-size:  1 rem;
+        padding:  10px 20px;
+        color: var(--text-color);
+        
+            }
+            .menu a::after{
+                content: "";
+                width: 0;
+                height: 3px;
+                background: var(--main-color);
+                position: absolute;
+                bottom: -4px;
+                left: 0;
+                transition: 0.5s;
+            }
+            .menu a:hover:after{
+                width: 100%;
+            }
+            .header-btn{
+
+                padding: 20px;
+            }
+           .header-btn .sign{
+            background: #474fa0;
+            color: #FFF;
+            padding: 10px;
+           
+            border-radius: 3rem;
+           }
+          
+           .header-btn .sign:hover{
+          background-color: var(--main-color);
+        }
+    
+   
+ 
+            

@@ -1,0 +1,81 @@
+
+body {
+   
+    width: fit-content;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   }
+*{
+    margin: 0;
+    padding: 0;
+}
+#Databox{
+    align-items: center;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background-color:#CCC;
+    padding:16px;	
+    border-radius: 10px;
+    border-color: black;
+    border-width: 3px;
+   
+  position: absolute;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#Boxname{
+    text-align: center;
+    text-decoration: solid;
+   font-size:32px;
+   padding-bottom: 25px;
+}
+#emailfield{
+    width: 90%;
+   margin-top: 16px;
+   margin-bottom: 16px;
+   height: 25px;
+    
+}
+#namefield{
+    width: 90%;
+   margin-top: 16px;
+   margin-bottom: 16px;
+   height: 25px;
+    
+}
+#passfield{
+    width: 90%;
+   margin-top: 16px;
+   height: 25px;
+   background-image: url(../eye.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: 24px;
+   margin-bottom: 16px;
+  
+    
+}
+#passfield2{
+    width: 90%;
+   margin-top: 16px;
+   height: 25px;
+   background-image: url(../eye.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: 24px;
+  
+    
+}
+.login_btnn{
+    text-align: center;
+            font-size: 24px;
+            margin: auto;
+          display: grid;
+          margin-top: 16px;
+            color: white;
+            padding: 8px;
+            background-color: #000000;
+}

@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    
+    }
+    :root{
+    --main-color : #fbbc00;
+    --second-color:#d08112;
+    --text-color:#000;
+    --gradient:linear-gradient(#fe5b3d,-#ffac38)
+    
+    }
+    html::-webkit-scrollbar{
+    width: 0.5rem;
+    
+    }
+    html::-webkit-scrollbar-track{
+    background: transparent;
+    
+    }
+    html::-webkit-scrollbar-thumb{
+        background: var(--main-color);
+        border-radius: 6rem;
+        }
+        body{
+            background-repeat: no-repeat;
+            width: 100%;
+            min-width: 100vh;
+        min-height: 100vh;
+            height: 100%;
+            background-repeat: no-repeat;
+          background-size: cover;
+            background-position: center;
+        background-image: url("https://wallpapercave.com/wp/wp661789.png");
+        }
+      
+      
+        header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-top: 20px;
+    right: 0;
+    z-index: 1000;
+    justify-content:  space-between;
+    align-items: center;
+    
+    display: flex;
+    
+    
+        }
+        .logo img{
+        width: 120px;
+    
+        }
+        .menu{
+    
+            display: flex;
+        }
+        .menu li {
+        position: relative;
+    
+        }
+        .menu a{
+            font-size:  1 rem;
+            padding:  10px 20px;
+            color: var(--text-color);
+            
+                }
+                .menu a::after{
+                    content: "";
+                    width: 0;
+                    height: 3px;
+                    background: var(--main-color);
+                    position: absolute;
+                    bottom: -4px;
+                    left: 0;
+                    transition: 0.5s;
+                }
+                .menu a:hover:after{
+                    width: 100%;
+                }
+               
+               
+              
+               
+                #Databox{
+                    align-items: center;
+                    width: 40%;
+                    top: 50%;
+                    left: 50%;
+                    background-color:#CCC;
+                    padding:16px;	
+                    border-radius: 10px;
+                    border-color: black;
+                    border-width: 3px;
+                   
+                  position: absolute;
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                }
+                #Boxname{
+                    text-align: center;
+                    text-decoration: solid;
+                   font-size:32px;
+                   padding-bottom: 25px;
+                }
+                #emailfield{
+                    width: 90%;
+                   margin-top: 16px;
+                   margin-bottom: 16px;
+                   height: 25px;
+                    
+                }
+                #namefield{
+                    width: 90%;
+                   margin-top: 16px;
+                   margin-bottom: 16px;
+                   height: 25px;
+                    
+                }
+                #passfield{
+                    width: 90%;
+                   margin-top: 16px;
+                   height: 25px;
+                   background-image: url(../eye.png);
+                   background-repeat: no-repeat;
+                   background-position: right;
+                   background-size: 24px;
+                   margin-bottom: 16px;
+                  
+                    
+                }
+                #passfield2{
+                    width: 90%;
+                   margin-top: 16px;
+                   height: 25px;
+                   background-image: url(../eye.png);
+                   background-repeat: no-repeat;
+                   background-position: right;
+                   background-size: 24px;
+                  
+                    
+                }
+                button{
+                    text-align: center;
+                            font-size: 24px;
+                            margin: auto;
+                          display: grid; 
+                          margin-top: 16px;
+                            color: white;
+                            padding: 8px;
+                            background-color: var(--main-color);
+                            transition: 0.5s;
+                }
+                button:hover{
+                    background-color: var(--second-color);
+                }
+       
+    
+    
+                

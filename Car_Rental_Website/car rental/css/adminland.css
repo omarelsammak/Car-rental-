@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    
+    }
+:root{
+    --main-color : #fbbc00;
+    --second-color:#ab690b;
+    --text-color:#444;
+    --gradient:linear-gradient(#fe5b3d,-#ffac38)
+    
+    }
+body{
+    background-image: url("https://wallpapercave.com/wp/wp661789.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    width: 100%;
+    min-width: 100vh;
+    
+    height: 100%;
+
+
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    justify-content:  space-between;
+    align-items: center;
+    
+    display: flex;
+    
+    
+        }
+        
+        .menu{
+    
+            display: flex;
+        }
+        .menu li {
+        position: relative;
+    
+        }
+        .menu a{
+            font-size:  2.5rem;
+            padding:  15px 20px;
+            color: var(black);
+            
+                }
+                .menu a::after{
+                    content: "";
+                    width: 0;
+                    height: 3px;
+                    background: var(--main-color);
+                    position: absolute;
+                    bottom: -4px;
+                    left: 0;
+                    transition: 0.5s;
+                }
+                .menu a:hover:after{
+                    width: 100%;
+                }
+                .header-btn{
+    
+                    padding: 20px;
+                }
+              
+              
+             
+       
+
+
+button{
+display: grid;
+background-color: #fbbc00;
+margin: auto;
+width: 200px;
+height: 100px;
+border-radius: 30px;
+font-size: 24px;
+align-items: center;
+margin-bottom: 16px;
+margin-top: 80px;
+transition: 0.7s;
+
+}
+button:hover{
+    background-color: var(--second-color);
+}
